@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:3000"
+    volumes:
+      - .:/go/src/app
+#    environment:
+#      - HOST=
