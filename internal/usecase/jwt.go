@@ -1,5 +1,3 @@
-// internal/usecase/jwt.go
-
 package usecase
 
 import (
